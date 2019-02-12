@@ -1,17 +1,29 @@
-h1{
-    font-size: 2em;
-    font-weight: 600;
-    color: rgb(0, 120, 141);
-}
+/* *{
+    width: 80%;
+    margin: auto;
+} */
 html{
     background-color: rgb(224, 223, 223);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(15, 3, 58);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h1{
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(0, 120, 141);
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 footer{
     color:rgb(28, 0, 105)
+}
+#footer_top{
+    margin-top: 2em;
+}
+.a{
+    text-decoration: none;
 }
 a:hover{
     color: rgb(0, 164, 219);
@@ -19,11 +31,38 @@ a:hover{
 .btn{
     color: rgb(240, 240, 240);
     background-color: rgb(91, 91, 114);
-    padding: 8px;
-    border-radius: 6px;
+    padding: .5em;
+    border-radius: .4em;
+    display: inline-block;
 }
 .btn:hover{
     background-color:rgb(21, 21, 78);
     color: rgb(240, 240, 240);
+    box-shadow: 2px 2px 2px rgb(58, 58, 58);
 }
-/* #apply-now */
+.flex_container{
+    display: flex;
+    align-items: center;
+}
+.narrow{
+    width: 50%;
+}
+.nav_list
+{
+    padding-left: 0;
+    list-style-type: none;
+}
+.nav_list li
+{
+    padding: 1em;
+}
+.outline{
+    border: .5px solid red;
+}
+.space_evenly{
+    justify-content: space-evenly;
+}
+#main_header{
+    font-size: 5em;
+    margin: 0;
+}
