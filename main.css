@@ -38,7 +38,7 @@ a:hover{
 .btn:hover{
     background-color:rgb(21, 21, 78);
     color: rgb(240, 240, 240);
-    box-shadow: 2px 2px 2px rgb(58, 58, 58);
+    box-shadow: 2px 2px 2px rgb(85, 85, 85);
 }
 .flex_container{
     display: flex;
