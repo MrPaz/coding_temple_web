@@ -5,8 +5,10 @@
 		<link rel="stylesheet" href="main.css" />
 	</head>
 	<body>
-		<header class="flex_container space_evenly">
-			<h1  id="main_header">Coding Temple</h1>
+		<header class="flex_container space_between">
+			<div class="logo"></div>
+			<!-- <img src="codingtemplewebimages/logo.png" alt="Coding Temple Logo" title="Coding Temple Logo"/> -->
+			<!-- <h1  id="main_header">Coding Temple</h1> -->
 			<nav class=>
 				<ul class="flex_container nav_list">
 					<li><a class="a btn" href="classes.html">Classes</a></li>
@@ -17,29 +19,44 @@
 			</nav>
 		</header>
 		<hr>
-		<main>
-			<section>
-				<h1>Classes</h1>
-				<p>Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.</p>
-				<a class="a btn" href="apply.html">Start your application...</a>
+		<main class="main_padding">
+			<section class="flex_container space_between">
+				<div class="col_75">
+					<h1>Classes</h1>
+					<p>Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.</p>
+					<a class="a btn" href="apply.html">Start your application...</a>
+				</div>
+				<div class="col_25">
+					<img class="image image_size" src="codingtemplewebimages/classes.png"/>
+				</div>
 			</section>
-			<section>
-				<h1>Course Curriculum</h1>
-				<p>Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.</p>
-				<a class="a btn" href="curriculum.html">View the Curriculum...</a>
+			<section class="flex_container space_between">
+				<div class="col_75">
+					<h1>Course Curriculum</h1>
+					<p>Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.</p>
+					<a class="a btn" href="curriculum.html">View the Curriculum...</a>
+				</div>
+				<div class="col_25">
+					<img class="image image_size" src="codingtemplewebimages/curriculum.png"/>
+				</div>
 			</section>
-			<section>
-				<h1>Current Students</h1>
-				<p>Our current cohort consists of students from various backgrounds and knowledge about the IT industry.</p>
-				<a class="a btn" href="students.html">View more on our students...</a>
+			<section class="flex_container space_between">
+				<div class="col_75">	
+					<h1>Current Students</h1>
+					<p>Our current cohort consists of students from various backgrounds and knowledge about the IT industry.</p>
+					<a class="a btn" href="students.html">View more on our students...</a>
+				</div>
+				<div class="col_25">
+					<img class="image image_size" src="codingtemplewebimages/students.png"/>
+				</div>
 			</section>
 			<div id="footer_top">
 				<em>Matt was here.</em>
 			</div>
-			<footer>
+		</main>
+		<footer>
 				<hr>
 				&copy; 2019 Matt Pazar
 			</footer>
-		</main>
 	</body>
 </html>
