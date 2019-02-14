@@ -4,20 +4,20 @@
 } */
 html{
     background-color: rgb(224, 223, 223);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(15, 3, 58);
+    font-family: 'Roboto', sans-serif;
+    color:black;
     padding-left: 2em;
     padding-right: 2em;
 }
 h1{
     font-size: 2em;
-    font-weight: 600;
+    font-weight: bold;
     color: rgb(0, 120, 141);
     margin-top: .5em;
     margin-bottom: .5em;
 }
 footer{
-    color:rgb(28, 0, 105)
+    color:black
 }
 #footer_top{
     margin-top: 2em;
@@ -47,9 +47,17 @@ a:hover{
     flex-basis: 25%;
     text-align: center;
 }
+.col_40{
+    flex-basis: 40%;
+}
 .flex_container{
     display: flex;
     align-items: center;
+}
+.fixed_bottom{
+    top: 85vh;
+    position: fixed;
+    background-color: rgb(224, 223, 223);
 }
 .image{
     max-width: 100%;
