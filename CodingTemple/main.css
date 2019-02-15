@@ -1,0 +1,103 @@
+/* *{
+    width: 80%;
+    margin: auto;
+} */
+html{
+    background-color: rgb(224, 223, 223);
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(0, 120, 141);
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+footer{
+    color:black
+}
+#footer_top{
+    margin-top: 2em;
+}
+.a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 164, 219);
+}
+.btn{
+    color: rgb(240, 240, 240);
+    background-color: rgb(91, 91, 114);
+    padding: .5em;
+    border-radius: .4em;
+    display: inline-block;
+}
+.btn:hover{
+    background-color:rgb(21, 21, 78);
+    color: rgb(240, 240, 240);
+    box-shadow: 2px 2px 2px rgb(85, 85, 85);
+}
+.col_75{
+    flex-basis: 75%;
+}
+.col_25{
+    flex-basis: 25%;
+    text-align: center;
+}
+.col_40{
+    flex-basis: 40%;
+}
+.flex_container{
+    display: flex;
+    align-items: center;
+}
+.fixed_bottom{
+    top: 85vh;
+    position: fixed;
+    background-color: rgb(224, 223, 223);
+}
+.image{
+    max-width: 100%;
+}
+.image_size{
+    height: 10em;
+    width: 10em;
+}
+.logo{
+    height: 7.5em;
+    width: 19.125em;
+    background-image: url(codingtemplewebimages/ctlogo.svg);
+    background-size: cover;
+}
+.main_padding{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+.narrow{
+    width: 50%;
+}
+.nav_list
+{
+    padding-left: 0;
+    list-style-type: none;
+}
+.nav_list li
+{
+    padding: 1em;
+}
+.outline{
+    border: .5px solid red;
+}
+.space_evenly{
+    justify-content: space-evenly;
+}
+.space_between{
+    justify-content: space-between;
+}
+#main_header{
+    font-size: 5em;
+    margin: 0;
+}
